@@ -7,3 +7,24 @@ body,
     margin: 0;
     padding: 0;
 }
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+
+/* .el-card,
+.logoutButton,
+.addSearch,
+.addBtn {
+    border-radius: 15px;
+} */
+
+.userList {
+    margin-top: 15px;
+}
+
+.userPagination {
+    margin-top: 15px;
+}

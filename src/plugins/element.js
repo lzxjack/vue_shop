@@ -28,7 +28,8 @@ import {
     Tag,
     Tree,
     Select,
-    Option
+    Option,
+    Cascader
 } from 'element-ui'
 
 
@@ -64,6 +65,7 @@ Vue.use(Tree)
 
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 
 // 弹窗提示要挂载到Vue.prototype

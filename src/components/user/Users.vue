@@ -148,7 +148,7 @@ export default {
                 // 当前的页数
                 pagenum: 1,
                 // 当前每页显示多少条数据
-                pagesize: 2,
+                pagesize: 10,
             },
             userlist: [],
             total: 0,
@@ -274,7 +274,7 @@ export default {
         },
         // 监听页码值改变的事件
         handleCurrentChange(newPage) {
-            //   console.log(newPage)
+            // console.log(newPage);
             this.queryInfo.pagenum = newPage;
             this.getUserList();
         },
